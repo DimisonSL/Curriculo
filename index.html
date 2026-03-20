@@ -1,16 +1,146 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-  <title>Meu Currículo</title>
+  <meta charset="UTF-8">
+  <title>Currículo - Dimison  Silva</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 12px;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #38bdf8;
+    }
+
+    header p {
+      margin: 5px 0 0;
+      color: #94a3b8;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 12px;
+    }
+
+    h2 {
+      color: #38bdf8;
+      margin-top: 0;
+      border-bottom: 1px solid #334155;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .project {
+      margin-bottom: 10px;
+    }
+
+    .project span {
+      color: #94a3b8;
+      font-size: 14px;
+    }
+
+  </style>
 </head>
+
 <body>
-  <h1>Dimison🚀</h1>
-  <p>Estudante de TI</p>
 
-  <h2>Sobre mim</h2>
-  <p>Estou criando meu primeiro site.</p>
+<div class="container">
 
-  <h2>Contato</h2>
-  <p>Email: dimison456@email.com</p>
+  <header>
+    <div>
+      <h1>Dimison</h1>
+      <p>Desenvolvedor Iniciante</p>
+    </div>
+    <div>
+      📍 Macapá - AP <br>
+      📧 dimison456@gmail.com <br>
+      📱 (96) 98420-3976 <br>
+      🎂 19 anos
+    </div>
+  </header>
+
+  <div class="grid">
+
+    <div class="card">
+      <h2>🎓 Formação</h2>
+      <ul>
+        <li>Ensino Médio Completo</li>
+        <li>Curso Superior em (Sistemas para Internet) - Cursando</li>
+      </ul>
+
+      <h2>🧠 Habilidades</h2>
+      <ul>
+        <li>HTML e CSS</li>
+        <li>Lógica de programação</li>
+        <li>Aprendizado rápido</li>
+        <li>Boa comunicação</li>
+      </ul>
+
+      <h2>🌐 Links</h2>
+      <ul>
+        <li>LinkedIn https://www.linkedin.com/in/dimison-silva-6784b03b8/?isSelfProfile=true</li>
+        <li>GitHub</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>💼 Experiência</h2>
+      <p>
+        <strong>Amazonas Importados X</strong> — Auxiliar de Depósito (2026 - Atual)
+      </p>
+      <h2>🚀 Projetos</h2>
+
+      <div class="project">
+        <strong>Site pessoal em HTML</strong><br>
+        <span>Criação de página web com estrutura HTML e estilização em CSS</span>
+      </div>
+
+      <div class="project">
+        <strong>Calculadora simples</strong><br>
+        <span>Projeto básico utilizando lógica de programação</span>
+      </div>
+
+      <h2>🎯 Objetivo</h2>
+      <p>
+        Busco uma oportunidade de estágio na área de tecnologia para desenvolver
+        minhas habilidades práticas e crescer profissionalmente como desenvolvedor.
+      </p>
+    </div>
+
+  </div>
+
+</div>
+
 </body>
 </html>
